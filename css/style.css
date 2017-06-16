@@ -44,15 +44,37 @@ body {
         background: #ffffff;
         margin: 0 auto;
     }
-        .header-top a {
-            display: block;
-            width: 120px;
-            float: left;
-        }
-        p.description-logo {
-            float: left;
-        }
-        ul.top-nav {
-            float: left;
+        .header-top {
             display: flex;
+            align-items: center;
         }
+            .logo {
+                display: flex;
+                align-items: center;
+                float: left;
+            }
+            p.description-logo {
+                float: left;
+                margin: 0 19px 0 75px;
+            }
+            .header-top a {
+          
+            }
+        ul.top-nav {
+            display: flex;
+            align-items: center;
+        }
+        ul>li.activ a {
+            background: #f0f0f0;
+            border-radius: 25px;
+            color: #000000;
+        }
+        ul.top-nav a {
+            padding: 15px 25px;
+            color: #c6c6c6;
+            font-weight: bold;
+        }
+        ul.top-nav a:hover {
+           color: #000000; 
+        }
+         
